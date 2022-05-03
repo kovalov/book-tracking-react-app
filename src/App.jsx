@@ -32,6 +32,7 @@ function App() {
         ...newBook,
         id: Date.now(),
         src: 'http://placeimg.com/200/200/animals',
+        createdAt: new Date().toDateString(),
       },
     ]);
   };

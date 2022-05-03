@@ -33,6 +33,10 @@ body {
 	padding: 0 1rem;
 }
 
+.message {
+	text-align: center;
+}
+
 .header {
 	background-color: var(--primary-color);
 	margin-bottom: 1rem;

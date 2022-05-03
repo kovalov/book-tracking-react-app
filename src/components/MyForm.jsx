@@ -21,8 +21,10 @@ const MyForm = ({ toggle, add }) => {
 
   const handleClick = (event) => {
     event.preventDefault();
-    add(data);
-    toggle();
+    if (data.title && data.author && data.pages) {
+      add(data);
+      toggle();
+    }
   };
 
   const handleCancel = () => {
